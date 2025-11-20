@@ -59,7 +59,7 @@ const ServiceSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-8">
         {services.map((item, index) => (
           <div
             key={index}
