@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff8904;
+  --color-secondary: #ffedd4;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("../assets/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "PlusJakartaSans", sans-serif;
+}
+
+/* BUTTON ANIMATION */
+.button-1 {
+  @apply flex items-center justify-center gap-x-2 px-6 py-3 bg-secondary  text-primary  rounded-full font-semibold text-xl relative overflow-hidden  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 ease-in-out before:h-full before:w-0 before:bg-primary before:transition-all before:duration-600 hover:text-secondary hover:shadow-primary hover:before:left-0 hover:before:w-full before:rounded-full;
+}
+.button-2 {
+  @apply flex items-center justify-center gap-x-2 px-6 py-3 bg-secondary  text-primary  rounded-full font-semibold text-xl relative overflow-hidden  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 ease-in-out before:h-full before:w-0 before:bg-primary before:transition-all before:duration-600 hover:text-secondary hover:shadow-primary hover:before:left-0 hover:before:w-full before:rounded-full hover:border-secondary hover:border-2;
+}
+.button-3 {
+  @apply flex items-center justify-center gap-x-2 px-6 py-3 bg-primary  text-secondary  rounded-full font-semibold text-xl relative overflow-hidden  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 ease-in-out before:h-full before:w-0 before:bg-primary before:transition-all before:duration-600 hover:text-secondary hover:shadow-primary hover:before:left-0 hover:before:w-full before:rounded-full hover:border-secondary hover:border-2;
+}
+
+/* ANIMATION */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.run-scroll {
+  animation: scroll-right 12s linear infinite;
+}
+
+/* Gradient Text */
+.gradient {
+  @apply bg-linear-to-r from-[#FF8904]/30  to-[#FF8904] inline-block text-transparent bg-clip-text text-3xl md:text-6xl text-center;
+}
+.gradient-2 {
+  @apply bg-linear-to-r from-[#FF8904]/30  to-[#FF8904] inline-block text-transparent bg-clip-text text-4xl  text-center;
+}
+.gradient-3 {
+  @apply bg-linear-to-r from-[#FF8904]/30  to-[#FF8904] inline-block text-center text-transparent bg-clip-text text-4xl;
+}
