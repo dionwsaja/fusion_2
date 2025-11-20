@@ -25,7 +25,7 @@ body {
   @apply flex items-center justify-center gap-x-2 px-6 py-3 bg-secondary  text-primary  rounded-full font-semibold text-xl relative overflow-hidden  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 ease-in-out before:h-full before:w-0 before:bg-primary before:transition-all before:duration-600 hover:text-secondary hover:shadow-primary hover:before:left-0 hover:before:w-full before:rounded-full hover:border-secondary hover:border-2;
 }
 .button-3 {
-  @apply flex items-center justify-center gap-x-2 px-6 py-3 bg-primary  text-secondary  rounded-full font-semibold text-xl relative overflow-hidden  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 ease-in-out before:h-full before:w-0 before:bg-primary before:transition-all before:duration-600 hover:text-secondary hover:shadow-primary hover:before:left-0 hover:before:w-full before:rounded-full hover:border-secondary hover:border-2;
+  @apply flex items-center justify-center gap-x-2 px-6 py-3 bg-primary  text-secondary  rounded-full font-semibold text-xl relative overflow-hidden  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 ease-in-out before:h-full before:w-0 before:bg-secondary before:transition-all before:duration-600 hover:text-primary hover:shadow-primary hover:before:left-0 hover:before:w-full before:rounded-full hover:border-secondary hover:border-2;
 }
 
 /* ANIMATION */

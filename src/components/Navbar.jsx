@@ -131,11 +131,8 @@ const Navbar = () => {
                 <a href="#products" className={navStyle("products")}>
                   Products
                 </a>
-                <a href="#contact" className={navStyle("contact")}>
-                  Contact
-                </a>
 
-                <a href="#contact" className="button-2">
+                <a href="#contact" className="button-3">
                   <span className="z-10">Contact Us</span>
                 </a>
               </nav>
